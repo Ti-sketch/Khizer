@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-08 18:31:30.037817",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_hhuo",
+  "loan_period",
+  "maximum_number_of_issued_articles"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_hhuo",
+   "fieldtype": "Section Break",
+   "label": "Settings"
+  },
+  {
+   "default": "30",
+   "fieldname": "loan_period",
+   "fieldtype": "Int",
+   "label": "Loan Period",
+   "non_negative": 1
+  },
+  {
+   "default": "30",
+   "fieldname": "maximum_number_of_issued_articles",
+   "fieldtype": "Int",
+   "label": "Maximum Number of Issued Articles",
+   "non_negative": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-11-08 18:33:13.377928",
+ "modified_by": "Administrator",
+ "module": "Khizer",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
